@@ -1,0 +1,136 @@
+
+body {
+  background-color: #423D3C;
+ }
+
+  .navBar {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    margin: 0px 1%;
+    height: 50px;
+    width: 11.5%;
+    color: white;
+    font-family: Raleway, sans-serif;
+  }
+  .logonav {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    height: 50px;
+    width: 11.5%;
+    color: white;
+    font-family: Raleway, sans-serif;
+  }
+  .navigation button {
+    background-color:transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  button {
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color:#CFBB01;
+    color: #423D3C;
+  }
+  body {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+  }
+ #heroGrid {
+  margin: 0px 0%;
+  display: grid;
+  min-height: 100%;
+  height: 95vh;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "HeroImage";
+  "Headliner";
+}
+
+#HeroImage {
+  grid-area: HeroImage;
+  background-image: url("../images/PROFILEBACK.jpg");
+}
+
+#Chatter {
+  position: absolute;
+  display: grid;
+  padding-left: 15%;
+  grid-template-rows: 100%;
+  grid-template-columns: 35% 50%;
+  grid-template-areas:
+  "LABEL SUBHEAD"
+}
+
+#LABEL {
+  color: #CFBB01;
+  font-family: 'DM Serif Display', serif;
+  justify-content: right;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 15%;
+
+}
+#SUBHEAD {
+  padding-top: 10%;
+  color: white;
+  line-height: 2;
+}
+
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+  .footer {
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+  }
+  .name {
+    color: white;
+  }
+  
+  .footer a {
+    padding: 5px 5px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+ 
+  .gold {
+    color: #CFBB01;
+  }
+  button {
+    background-color:#57564e;
+    border: none;
+    color: #D9D1D0;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  button {
+    transition-duration: 0.4s;
+  }
+  
+  button:hover {
+    background-color:#CFBB01;
+    color: #423D3C;
+  }
